@@ -2,104 +2,104 @@
 <html>
 <head>
     <title>Talent Scan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Talent Scan</h1>
-<p><i>Sistema de automação para triagem de candidatos</i></p>
+<div class="topo">
+    <div class="logo">
+        <img src="imagem.jpeg" alt="Logo">
+    </div>
+</div>
 
-<hr>
+<div class="tabs">
 
-<h2>Índice</h2>
-<ul>
-    <li><a href="#sobre">O que é</a></li>
-    <li><a href="#objetivo">Objetivo</a></li>
-    <li><a href="#funcionamento">Como funciona</a></li>
-    <li><a href="#beneficios">Benefícios</a></li>
-    <li><a href="#uso">Exemplo de uso</a></li>
-    <li><a href="#colaboradores">Colaboradores</a></li>
-    <li><a href="#conclusao">Conclusão</a></li>
-</ul>
+    <!-- ABAS -->
+    <div class="tab-links">
+        <a href="#indice">Índice</a>
+        <a href="#sobre">O que é</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#funcionamento">Funcionamento</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#uso">Exemplo</a>
+        <a href="#conclusao">Conclusão</a>
+    </div>
 
-<hr>
+    <!-- CONTEÚDOS -->
 
-<h2 id="sobre">O que é?</h2>
-<p>
-O Talent Scan é um projeto desenvolvido com o objetivo de automatizar o processo de seleção de candidatos,
-facilitando o envio, a análise e a organização de currículos de forma eficiente e prática.
-</p>
+    <div id="indice" class="tab-content">
+        <h1>Talent Scan</h1>
+        <p><i>Sistema de automação para triagem de candidatos</i></p>
 
-<hr>
+        <h2>Índice</h2>
+        <ul>
+            <li>O que é</li>
+            <li>Objetivo</li>
+            <li>Funcionamento</li>
+            <li>Benefícios</li>
+            <li>Exemplo</li>
+            <li>Conclusão</li>
+        </ul>
+    </div>
 
-<h2 id="objetivo">Objetivo</h2>
-<p>
-O principal objetivo do Talent Scan é reduzir o tempo gasto na análise de currículos,
-aumentando a eficiência do processo de recrutamento.
-</p>
+    <div id="sobre" class="tab-content">
+        <h2>O que é?</h2>
+        <p>
+        O Talent Scan é um projeto desenvolvido com o objetivo de automatizar o processo de seleção de candidatos,
+        facilitando o envio, a análise e a organização de currículos de forma eficiente e prática.
+        </p>
+    </div>
 
-<hr>
+    <div id="objetivo" class="tab-content">
+        <h2>Objetivo</h2>
+        <p>
+        O principal objetivo do Talent Scan é reduzir o tempo gasto na análise de currículos,
+        aumentando a eficiência do processo de recrutamento.
+        </p>
+    </div>
 
-<h2 id="funcionamento">Como funciona?</h2>
-<ol>
-    <li>O candidato envia seu currículo através do Telegram</li>
-    <li>O sistema recebe automaticamente o arquivo enviado</li>
-    <li>O conteúdo do currículo é analisado</li>
-    <li>Os candidatos são organizados de acordo com sua compatibilidade com a vaga</li>
-    <li>O recrutador recebe os currículos já filtrados e organizados</li>
-</ol>
+    <div id="funcionamento" class="tab-content">
+        <h2>Como funciona?</h2>
+        <ol>
+            <li>Envio via Telegram</li>
+            <li>Recebimento automático</li>
+            <li>Análise do conteúdo</li>
+            <li>Organização dos candidatos</li>
+            <li>Entrega ao recrutador</li>
+        </ol>
+    </div>
 
-<hr>
+    <div id="beneficios" class="tab-content">
+        <h2>Benefícios</h2>
+        <ul>
+            <li>Redução de tempo</li>
+            <li>Automação</li>
+            <li>Organização</li>
+        </ul>
+    </div>
 
-<h2 id="beneficios">Benefícios</h2>
-<ul>
-    <li>Redução significativa do tempo de análise de currículos</li>
-    <li>Automação do processo de triagem</li>
-    <li>Melhor organização das informações recebidas</li>
-</ul>
+    <div id="uso" class="tab-content">
+        <h2>Exemplo de uso</h2>
+        <p>
+        Empresas utilizam o Talent Scan para automatizar triagens iniciais.
+        </p>
+    </div>
 
-<hr>
+    <div id="conclusao" class="tab-content">
+        <h2>Conclusão</h2>
+        <p>
+        Solução eficiente para otimizar recrutamento.
+        </p>
 
-<h2 id="uso">Exemplo de uso</h2>
-<p>
-Empresas podem utilizar o Talent Scan para automatizar a triagem inicial,
-recebendo candidatos já organizados por relevância.
-</p>
+        <h3>Contato</h3>
+        <p>Email: contato@talentscan.com</p>
+    </div>
 
-<hr>
+</div>
 
-<h2 id="colaboradores">Colaboradores</h2>
-<p>Equipe responsável pelo desenvolvimento do projeto Talent Scan:</p>
-
-<ul>
-    <li><b>Nicolas Sena — Gestão e Documentação:</b> Organização no Trello e introdução em LaTeX.</li>
-    <li><b>Nicolas Vitorino — Documentação:</b> Desenvolvimento da introdução em LaTeX.</li>
-    <li><b>Luis Otavio — Apresentação:</b> Criação e estruturação dos slides.</li>
-    <li><b>Gusthavo — Desenvolvimento Web:</b> Criação do site.</li>
-    <li><b>Higgor — Desenvolvimento Web:</b> Suporte na construção do site.</li>
-    <li><b>Pedro — Design:</b> Criação da identidade visual e logo.</li>
-    <li><b>Beiço — Desenvolvimento Web:</b> Apoio na implementação do site.</li>
-    <li><b>Mayk — Coordenação:</b> Apoio geral e organização do projeto.</li>
-    <li><b>Luiz Filipe — Backend:</b> Integração com Telegram e processamento inicial.</li>
-    <li><b>Louis — Documentação e Gestão:</b> Introdução em LaTeX e organização no Trello.</li>
-</ul>
-
-<p>
-Cada integrante possui um papel específico no desenvolvimento do sistema,
-garantindo que todas as etapas do projeto sejam executadas com qualidade.
-</p>
-
-<hr>
-
-<h2 id="conclusao">Conclusão</h2>
-<p>
-O Talent Scan é uma solução eficiente para automatizar a triagem de currículos,
-otimizando o tempo e melhorando o processo de recrutamento.
-</p>
-
-<hr>
-
-<h2>Contato</h2>
-<p>Email: contato@talentscan.com</p>
+<div class="nav">
+    <a href="pagina2.html">Ver Colaboradores</a>
+</div>
 
 </body>
 </html>

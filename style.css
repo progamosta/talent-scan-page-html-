@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+/* TOPO */
+.topo {
+    display: flex;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #36c;
+}
+
+/* LOGO */
+.logo img {
+    width: 110px;
+}
+
+/* TABS CONTAINER */
+.tabs {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* ABAS */
+.tab-links {
+    display: flex;
+    gap: 5px;
+    border-bottom: 2px solid #a2a9b1;
+}
+
+/* BOTÕES DAS ABAS */
+.tab-links a {
+    padding: 10px 15px;
+    background-color: #e3e6ea;
+    border: 1px solid #a2a9b1;
+    border-bottom: none;
+    text-decoration: none;
+    color: #000;
+    border-radius: 6px 6px 0 0;
+    font-size: 14px;
+}
+
+.tab-links a:hover {
+    background-color: #ffffff;
+}
+
+/* CONTEÚDO */
+.tab-content {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #a2a9b1;
+    padding: 20px;
+}
+
+/* ABA ATIVA */
+.tab-content:target {
+    display: block;
+}
+
+/* ABA PADRÃO */
+#indice {
+    display: block;
+}
+
+/* LINKS */
+a {
+    color: #36c;
+}
+
+/* NAV */
+.nav {
+    text-align: center;
+    margin: 20px;
+}
+
+/* BOX (necessária para página 2) */
+.box {
+    background-color: #ffffff;
+    border: 1px solid #a2a9b1;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 6px;
+}
